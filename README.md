@@ -15,10 +15,6 @@
 3. Create Deck on Anki and remember deck name
 4. Set variable `deck_name` on workflow. [x] is the button for setting variable. 
 
-    ![Untitled](https://user-images.githubusercontent.com/45332816/88473611-4d5a6f00-cf5a-11ea-8839-aaaa6db6ebe5.png)
-
-    ![Untitled](https://user-images.githubusercontent.com/45332816/88473618-59463100-cf5a-11ea-9d2c-177976c690a6.png)
-
 ## Usage
 
 - nd {query} : Search
