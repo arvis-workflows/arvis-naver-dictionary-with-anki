@@ -1,23 +1,23 @@
 {
   "$schema": "https://github.com/jopemachine/arvis-core/blob/master/workflow-schema.json",
-  "createdby": "WiseSquid",
+  "creator": "WiseSquid",
   "description": "WiseSquid",
   "name": "Naver Dictionary to Anki",
   "defaultIcon": "icon.png",
   "readme": "Support\n1. Searching words(en <-> ko) using Naver Dictionary \n2. Storing searched result in Anki(with cmd key pressed)\n\nFor Anki\nInstall Anki and AnkiConnect.\nSet deck_name variable.",
   "version": "",
-  "webaddress": "https://github.com/WiseSquid/Naver-Dictionary-with-Anki-for-alfred-workflow",
+  "webAddress": "https://github.com/WiseSquid/Naver-Dictionary-with-Anki-for-alfred-workflow",
   "enabled": true,
   "variables": {
     "deck_name": "Wox Deck"
   },
   "commands": [
     {
-      "type": "scriptfilter",
+      "type": "scriptFilter",
       "command": "nd",
       "title": "Search from Naver dictionary",
       "subtitle": "and add query to Anki",
-      "script_filter": "./naver_dict.py \"{query}\"",
+      "scriptFilter": "./naver_dict.py \"{query}\"",
       "running_subtext": "Search from Naver dictionary with your input",
       "withspace": true,
       "arg_type": "optional",
