@@ -5,7 +5,7 @@
   "name": "Naver Dictionary to Anki",
   "defaultIcon": "icon.png",
   "readme": "Support\n1. Searching words(en <-> ko) using Naver Dictionary \n2. Storing searched result in Anki(with cmd key pressed)\n\nFor Anki\nInstall Anki and AnkiConnect.\nSet deck_name variable.",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "webAddress": "https://github.com/WiseSquid/Naver-Dictionary-with-Anki-for-alfred-workflow",
   "enabled": true,
   "variables": {
@@ -21,12 +21,12 @@
       "runningSubtext": "Search from Naver dictionary with your input",
       "withspace": true,
       "argType": "optional",
-      "action": [
+      "actions": [
         {
           "modifiers": "cmd",
           "type": "script",
           "script": "python anki.py \"{query}\"",
-          "action": [
+          "actions": [
             {
               "modifiers": "normal",
               "type": "notification",
